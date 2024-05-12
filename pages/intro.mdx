@@ -1,0 +1,33 @@
+# RamenSwap Introduction
+ 
+RamenSwap is the First Dex to support EVM Extension.  
+RamenSwap enables to swap assets in a more scalable, flexible and secure way.
+
+## What is Dex (decentralized exchange)?
+
+A decentralized exchange (better known as a DEX) is a peer-to-peer marketplace where transactions occur directly between crypto traders. DEXs fulfill one of crypto’s core possibilities: fostering financial transactions that aren’t officiated by banks, brokers, payment processors, or any other kind of intermediary. The most popular DEXs — like Uniswap and Sushiswap — utilize the Ethereum blockchain and are part of the growing suite of decentralized finance (DeFi) tools, which make a huge range of financial services available directly from a compatible crypto wallet. DEXs are booming — in the first quarter of 2021, $217 billion in transactions flowed through decentralized exchanges. As of April 2021, there were more than two million DeFi traders, a ten-fold increase from May 2020.
+
+### How do DEXs work?
+
+Add Liquity: They establish the prices of various cryptocurrencies against each algorithmically and use “liquidity pools” — in which investors lock funds in exchange for interest-like rewards — to facilitate trades. And it use AMM (Automated Market Maker) to discover token price.
+
+Peer-to-peer Swap: While transactions on a centralized exchange are recorded on that exchange’s internal database, DEX transactions are settled directly on the blockchain. With trusted cryptographic algorithm, we can trace the transaction transparently and validate all history transactions unalterablely.
+
+Open-souce Smart Contract: DEXs are usually built on open-source smart contract deployed on blockchain. Every transaction will follow the rules of the code and execute automatically on chain. That also means that developers can adapt existing code to create new competing projects — which is how Uniswap’s code has been adapted by an entire host of DEXs with “swap” in their names like Sushiswap and Pancakeswap. 
+
+## What is Artela and EVM++?
+
+Artela is a dual-virtual-machine blockchain focused on extending on-chain functionality. Artela dApps are built on a novel VM + WASM architecture using aspect programming, which can bring new features and behaviors to existing blockchain protocols that were, until now, impossible. This architecture is completely composable with other applications, able to be published at runtime, and both cheaper and more computationally powerful than anything else.
+
+### Artela Native Extension
+
+Artela Native Extensions empower developers to extend the functionality of the blockchain base layer by adding custom programmable modules at the user level, enabling them to tailor the base layer features to fit their specific use cases.
+
+### Artela Aspect
+
+Aspect Programming offers an SDK and a WASM runtime environment for building native extensions on Artela blockchain. To add Aspects to your dApp:
+- 1. Develop Aspects and compile to WASM bytecode.
+- 2. Sign deployment transaction and send to network. 
+- 3. Bind Aspects with your smart contract. 
+- 4. Send a transaction to invoke the contract, and trigger the associated Aspects.
+
