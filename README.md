@@ -1,10 +1,14 @@
 # RamenSwap documents 
 
+RamenSwap is the First Dex to support EVM Extension. 
 
+## Ramen Repositories
 
-## Ramen Repository
-
-Ramen
+- contracts: https://github.com/chef-studio/ramen-contracts
+- official: https://github.com/chef-studio/ramen-swap
+- dapp: https://github.com/chef-studio/ramen-dapp
+- graph: https://github.com/chef-studio/ramen-graph
+- analytic: https://github.com/chef-studio/ramen-info
 
 ## Local Development
 
