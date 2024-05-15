@@ -1,7 +1,8 @@
 {
-  "index": "RamenSwap Intro",
-  "develop": "RamenSwap Developers",
-  "event": "RamenSwap Roadmap",
+  "index": "IonSwap",
+  "intro": "IonSwap Intro",
+  "develop": "IonSwap Developers",
+  "event": "IonSwap Roadmap",
   "about": {
     "title": "About",
     "type": "page"
@@ -9,7 +10,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/0xramenswap",
+    "href": "https://twitter.com/0xIonSwap",
     "newWindow": true
   }
 }

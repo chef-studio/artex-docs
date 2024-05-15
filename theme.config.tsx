@@ -3,26 +3,25 @@ import Image from "next/image";
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  
-  logo: <div className="flex-shrink items-center justify-center gap-2.5 hover:cursor-pointer">
+  logo: <div className="flex- items-center justify-center gap-2.5 hover:cursor-pointer">
           <Image
-            src="/logo/ramen-logo.svg"
-            alt="Ramen Logo"
-            width={26.86}
-            height={23.55}
+            src="/logo/ion-logo-blue.svg"
+            alt="ION Logo"
+            width={130}
+            height={25}
             loading="eager"
           />
-          <h1 className="text-white text-xl font-medium">RamenSwap</h1>
+          <span className="text-blue-500 font-bold text-2xl">IonSwap</span>
         </div>,
   project: {
     link: 'https://github.com/orgs/chef-studio/repositories',
   },
   chat: {
-    link: 'https://t.me/ramenswap.xyz',
+    link: 'https://t.me/ionswap',
   },
   docsRepositoryBase: 'https://github.com/chef-studio/ramen-docs',
   footer: {
-    text: 'RamenSwap © 2024',
+    text: 'IonSwap © 2024',
   },
 }
 

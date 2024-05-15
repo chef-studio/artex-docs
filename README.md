@@ -1,6 +1,6 @@
-# RamenSwap documents 
+# IonSwap documents 
 
-RamenSwap is the First Dex to support EVM Extension. 
+IonSwap is the First Dex to support EVM Extension. 
 
 ## Ramen Repositories
 
