@@ -1,8 +1,8 @@
 {
-  "index": "IonSwap",
-  "intro": "IonSwap Intro",
-  "develop": "IonSwap Developers",
-  "event": "IonSwap Roadmap",
+  "index": "ArtexSwap",
+  "intro": "ArtexSwap Intro",
+  "develop": "ArtexSwap Developers",
+  "event": "ArtexSwap Roadmap",
   "about": {
     "title": "About",
     "type": "page"
@@ -10,7 +10,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/0xIonSwap",
+    "href": "https://twitter.com/artexswap",
     "newWindow": true
   }
 }

@@ -11,17 +11,17 @@ const config: DocsThemeConfig = {
             height={25}
             loading="eager"
           />
-          <span className="text-blue-500 font-bold text-2xl">IonSwap</span>
+          <span className="text-blue-500 font-bold text-2xl">ArtexSwap</span>
         </div>,
   project: {
     link: 'https://github.com/orgs/chef-studio/repositories',
   },
   chat: {
-    link: 'https://t.me/ionswap',
+    link: 'https://t.me/artexswap',
   },
   docsRepositoryBase: 'https://github.com/chef-studio/ramen-docs',
   footer: {
-    text: 'IonSwap © 2024',
+    text: 'ArtexSwap © 2024',
   },
 }
 
