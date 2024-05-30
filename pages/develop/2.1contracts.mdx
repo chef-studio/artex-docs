@@ -1,0 +1,61 @@
+# ArtexSwap Contracts
+
+## WART
+
+Wrap ART Native token into WART
+
+## Factory Interface:  
+
+**createPair**: Create token pairs
+
+```solidity
+function createPair(address tokenA, address tokenB) external returns (address pair)
+```
+
+**getPair**: Get token pairs
+```solidity
+function getPair(address tokenA, address tokenB)
+```
+
+## RouterV2 Interface:  
+
+**addLiquidity**: Provide liquidity for pools
+
+```solidity
+function addLiquidity
+
+// Wrap ART into WART
+function addLiquidityETH
+
+// Remove
+function removeLiquidity
+```
+**swapFunctions**: Swap native/tokens to other tokens
+
+``` solidity
+function swapExactTokensForTokens
+function swapTokensForExactTokens
+
+// Wrap ART into WART
+function swapExactETHForTokens
+function swapTokensForExactETH
+function swapExactTokensForETH
+function swapETHForExactTokens
+
+// support ing fee
+function swapExactTokensForTokensSupportingFeeOnTransferTokens
+function swapExactETHForTokensSupportingFeeOnTransferTokens
+function swapExactTokensForETHSupportingFeeOnTransferTokens
+```
+
+## Multicall Contract
+
+```solidity
+function aggregate(Call[] memory calls) public returns (uint256 blockNumber, bytes[] memory returnData) 
+```
+
+## Reference
+
+**Repository**: https://github.com/chef-studio/artex-contracts
+
+

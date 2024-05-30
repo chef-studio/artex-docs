@@ -19,6 +19,10 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://t.me/artexswap',
   },
+  i18n: [
+    { locale: 'en-US', text: 'English' },
+    { locale: 'zh-CN', text: '中文' },
+  ],
   docsRepositoryBase: 'https://github.com/chef-studio/ramen-docs',
   footer: {
     text: 'ArtexSwap © 2024',
