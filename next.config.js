@@ -8,8 +8,6 @@ module.exports = withNextra({
   //   locales: ['en-US', 'zh-CN'],
   //   defaultLocale: 'en-US'
   // },
-  distDir: "build",
-  output: 'export',
   images: {
     remotePatterns: [
       {
