@@ -4,10 +4,12 @@ const withNextra = require('nextra')({
 })
 
 module.exports = withNextra({
-  i18n: {
-    locales: ['en-US', 'zh-CN'],
-    defaultLocale: 'en-US'
-  },
+  // i18n: {
+  //   locales: ['en-US', 'zh-CN'],
+  //   defaultLocale: 'en-US'
+  // },
+  distDir: "build",
+  output: 'export',
   images: {
     remotePatterns: [
       {
