@@ -1,8 +1,8 @@
 {
-  "index": "ArtexSwap Intro",
-  "overview": "ArtexSwap Overview",
-  "develop": "ArtexSwap Developers",
-  "event": "ArtexSwap Roadmap",
+  "index": "Overview",
+  "users": "For Users",
+  "developers": "For Developers",
+  "roadmap": "Roadmap",
   "about": {
     "title": "About",
     "type": "page"
